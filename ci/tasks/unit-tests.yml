@@ -8,7 +8,7 @@ image_resource:
     tag: "latest"
 
 inputs:
-- name: concourse-pipeline-samples
+- name: smart-contracts-ui
 
 run:
   path: smart-contracts-ui/ci/tasks/run-unit-tests

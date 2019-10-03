@@ -8,7 +8,7 @@ image_resource:
     tag: "latest"
 
 inputs:
-- name: concourse-pipeline-samples
+- name: smart-contracts-ui
 
 outputs:
 - name: current-app-info

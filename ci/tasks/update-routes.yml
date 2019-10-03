@@ -9,7 +9,7 @@ image_resource:
 
 
 inputs:
-- name: concourse-pipeline-samples
+- name: smart-contracts-ui
 - name: current-app-info
 
 run:
