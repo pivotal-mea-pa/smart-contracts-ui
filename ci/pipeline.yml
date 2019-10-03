@@ -12,6 +12,7 @@ resources:
   source:
     branch: master
     uri: https://github.com/pivotal-mea-pa/smart-contracts-ui.git
+
 - name: pivotal-cloud-foundry
   type: cf
   source:
@@ -56,7 +57,7 @@ jobs:
   - put: pivotal-cloud-foundry
     params:
       manifest: app-manifest-output/manifest.yml
-      path: smart-contracts-ui/bgd-app
+      path: smart-contracts-ui
 
 - name: load-tests
   serial: true
