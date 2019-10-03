@@ -4,5 +4,5 @@ set -xe
 
 pwd
 npm install
-ls
+cd smart-contracts-ui
 mocha tests --recursive
