@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="60px" viewBox="0 0 97 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>DNS-vender</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.7">
+        <g id="Vender-Dashboard" transform="translate(-13.000000, -15.000000)">
+            <g id="DNS-vender" transform="translate(4.000000, 0.000000)">
+                <text id="DNS" font-family="Roboto-Medium, Roboto" font-size="50" font-weight="400" letter-spacing="0.8928571">
+                    <tspan x="6.73395654" y="52" fill="#000000">D</tspan>
+                    <tspan x="40.4881418" y="52" fill="#FF0000">NS </tspan>
+                </text>
+                <text id="Solutions" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" letter-spacing="1.85000002" fill="#000000">
+                    <tspan x="9.36953115" y="74">Solution</tspan>
+                    <tspan x="96.444922" y="74">s</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

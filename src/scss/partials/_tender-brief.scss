@@ -1,0 +1,52 @@
+.tender-submissions-container{
+    background-color: #fff;  
+    height: 100%;   
+    padding: 10px;
+    @include box-shadow-one();
+    border-radius: 5px;
+    .submission-title{
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+    .submission-body{
+        .download-cta{
+            cursor: pointer;
+            color:#333;
+            width:100%;
+            text-align: right; 
+            font-size: 12px;
+            text-transform: capitalize;
+            i{
+                font-size: 22px;
+                display: inline-block;
+                vertical-align: middle;
+            }   
+        }
+        .panel-header{
+            border-bottom:2px solid $secondary;
+        }
+        .panel-details{
+            display: block;
+        }
+        .upload-container{
+            position: relative;
+            width:100%;
+            .upload-btn{
+                position: absolute;
+                right: 0;
+                bottom:4px;
+            }
+        }
+        
+        .accord-title{
+
+        }
+      
+    }
+}
+.tender-section{
+    padding-right: 10px;
+}

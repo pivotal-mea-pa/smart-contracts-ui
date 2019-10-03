@@ -1,0 +1,178 @@
+.consumer-dashboard {
+  .dashboard-tabs{
+    position: relative;
+    top: 1px;
+    min-height: 40px;
+    button[aria-selected="true"]{
+      background-color:rgba($grey-blue,0.2);
+    }
+    button{
+      min-height: 35px;
+    }
+    [role="tablist"]{
+      >span{
+          display: none;
+      }
+  }
+  }
+  .tab-content {
+    width: 100%;
+    background: rgba($grey-blue, 0.2);
+    min-height: 650px;
+    &.executive{
+      
+    }
+    &.account{
+      width: 100%;
+      .account-details{
+        width:100%;
+        padding:10px;        
+        .stack{
+          display: block;
+          [class*="MuiInputBase-formControl-"]{
+            width: 80%;
+            background-color:#fff;
+          }         
+        }
+      }
+    }
+    .tab-content-header {
+      padding: 1rem;
+      .tab-content-header-text {
+        font-size: 2rem;
+        padding-top: 1rem;
+        display: inline-block;
+      }
+      .active-search {
+        color: darken($grey, 25%);
+        padding-top: 1rem;
+      }
+    }
+    .active-filters-form-control {
+      min-width: 100px;
+      margin-right: 1rem;
+      padding-right: 1rem;
+      border-right: 1px solid darken($grey, 10%);
+    }
+  
+    .tab-card-list {
+      padding: 1rem;
+      &.tenders {
+        .tender-row {
+          position: relative;
+          padding: 5px 0px;
+          background-color:#fff;
+          margin-bottom: 10px;
+          display: block;
+          @include box-shadow-one;
+          &:after {
+            @include border-bottom-gradient-2();
+          }
+          
+          .tender-cell{
+            padding-right: 20px;
+            border-bottom:none;
+            vertical-align: middle;
+            display: inline-block;
+            position: relative;
+            top:10px;
+            font-size: 12px;
+            &.block-color{
+              color:$primary
+            }
+            &.categories-holder{        
+              position: relative;
+              .categories{
+                width: 100px;
+                overflow: hidden;
+                display: inline-block;
+                vertical-align: sub;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                z-index: 1;
+                // &:hover{
+                //   position: absolute;
+                //   left: 0;
+                //   right: 0;
+                //   overflow: visible;
+                //   top:-26px;
+                //   bottom: 0;
+                //   width: calc(100% - 5px);
+                //   height: 20px;
+                //   background-color: #fff;
+                //   padding:10px;
+                //   @include box-shadow-one;
+                //   border-radius: 3px;
+                // }
+    
+              }
+            }
+            &.action{
+              position: absolute;
+              right: 0;
+              top:8px;
+            }
+          }
+        }
+      }
+      &.activities {
+        position: relative;
+        overflow: hidden;
+        &:before {
+          content: '';
+          height: 100%;
+          width: 3px;
+          display: inline-block;
+          background-color: $secondary;
+          position: absolute;
+          left: 22px;
+        }
+        .tab-card {
+          width: 90%;
+          margin-left: 40px;
+        }
+      }
+
+      .tab-card {
+        width: 100%;
+        padding: 1rem 10px;
+        margin-bottom: 1rem;
+        @include transition-all();
+        cursor: pointer;
+        &:hover {
+          @include box-shadow-one();
+        }
+        &.activity-card {
+          border-bottom: 2px solid $primary;
+          position: relative;
+          overflow: visible;
+          &:before {
+            content: '';
+            height: 15px;
+            width: 15px;
+            background-color: $secondary;
+            border-radius: 100%;
+            display: inline-block;
+            position: absolute;
+            left: -40px;
+            top: 0%;
+            bottom: 0;
+            margin: auto;
+          }
+        }
+        .text-primary,
+        .text-secondary,
+        .text-info,
+        .text-danger {         
+          svg {
+            vertical-align: middle;
+          }
+          span {
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

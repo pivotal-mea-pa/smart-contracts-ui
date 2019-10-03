@@ -1,0 +1,71 @@
+.add-tender-container{
+    padding: 20px 10px;
+    .inline-spread-list{
+        list-style: none;
+        margin-top: 20px;
+        li{
+            display: inline-block;
+            width: 33.33%;
+        }
+    }
+    .secondary{
+        width: 100%;
+    }
+    .form-container{
+        padding: 20px 20px !important;
+    }
+    .uploader{
+        padding: 20px 20px !important;
+    }
+    
+    .pdf-uploader-container{
+        background-color: #fff;
+        @include box-shadow-one();
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin-top: 20px;
+        .pdf-item{
+            i{
+                width: 50px;
+                height: 50px;
+                margin: auto;
+                color: #3B60A0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                font-size: 50px;
+            }
+            
+        }
+    }
+
+    .uploaded-documents {
+        margin-top: 20px;
+        ul {
+            list-style-type: none;
+        }
+    }
+    .select-container{
+        padding: 20px 20px !important;
+       
+        ul{
+            li{
+                padding-right: 80px;
+                div[class*="MuiFormControl-root-"]{
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .cta-actions{
+        text-align: right;
+        padding: 40px 20px !important;
+        Button{
+            margin-left: 20px;
+            
+        }
+    }
+}

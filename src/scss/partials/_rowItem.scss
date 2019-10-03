@@ -1,0 +1,30 @@
+.tabCard{
+    ul{
+        li{
+            padding: 0px 10px;
+        }
+    }
+}
+.row-item{
+    
+}
+
+.card-list{
+    .row-item{
+        &.internal{
+            @include box-shadow-one();
+            position: relative;
+            &:after{
+               content: "";
+               width: 100%;
+               height: 2px;
+               @include border-bottom-gradient-3();
+               display: inline-block;
+               position: absolute;
+               bottom:0;
+               left: 0;
+               right: 0;
+            }
+        }      
+    }
+  }

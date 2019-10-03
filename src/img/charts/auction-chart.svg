@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="616px" height="446px" viewBox="0 0 616 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>TenderTimeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="608" height="438"></rect>
+        <filter x="-1.2%" y="-1.1%" width="102.3%" height="103.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vender-Landing-Executive-Dashboard" transform="translate(-636.000000, -780.000000)">
+            <g id="TenderTimeline" transform="translate(640.000000, 782.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Day-1" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="111.098612" y="383">Day 1</tspan>
+                </text>
+                <text id="Day-2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="287.098612" y="383">Day 2</tspan>
+                </text>
+                <text id="Day-3" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="464.098612" y="383">Day 3</tspan>
+                </text>
+                <text id="0" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="43.1306599" y="367">0</tspan>
+                </text>
+                <text id="0.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="345">0.2</tspan>
+                </text>
+                <text id="0.4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="322">0.4</tspan>
+                </text>
+                <text id="0.6" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="303">0.6</tspan>
+                </text>
+                <text id="0.8" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="284">0.8</tspan>
+                </text>
+                <text id="1" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="43.1306599" y="264">1</tspan>
+                </text>
+                <text id="1.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="242">1.2</tspan>
+                </text>
+                <text id="1.4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="223">1.4</tspan>
+                </text>
+                <text id="1.6" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="200">1.6</tspan>
+                </text>
+                <text id="1.8" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="183">1.8</tspan>
+                </text>
+                <text id="2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="43.1306599" y="160">2</tspan>
+                </text>
+                <text id="2.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="141">2.2</tspan>
+                </text>
+                <text id="2.4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.918367743" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="31.1263546" y="124">2.4</tspan>
+                </text>
+                <path d="M210.5,118.053704 L210.5,362" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M390.5,118.053704 L390.5,362" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M56.1001486,118.053704 L552.536813,118.053704 L56.1001486,118.053704 Z M56.1001486,158.053704 L552.536813,158.053704 L56.1001486,158.053704 Z M56.1001486,198.053704 L552.536813,198.053704 L56.1001486,198.053704 Z M56.1001486,238.053704 L552.536813,238.053704 L56.1001486,238.053704 Z M56.1001486,278.053704 L552.536813,278.053704 L56.1001486,278.053704 Z M56.1001486,318.053704 L552.536813,318.053704 L56.1001486,318.053704 Z M56,118 L56,362 L56,118 Z M56.5,340 L552.536813,340 M56.5,299 L552.536813,299 M56.5,259 L552.536813,259 M56.5,219 L552.536813,219 M56.5,179 L552.536813,179 M56.5,139 L552.536813,139 L56.5,139 Z M553,361.640445 L56.5,361.640445 L553,361.640445 Z" id="Combined-Shape" stroke="#3654D7" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#3654D7" cx="135" cy="219" r="6"></circle>
+                <circle id="Oval" fill="#3654D7" cx="301" cy="230" r="6"></circle>
+                <circle id="Oval" fill="#3654D7" cx="479" cy="260" r="6"></circle>
+                <polyline id="Path-2" stroke="#3654D7" stroke-width="2" points="135 219 301 230 479 260"></polyline>
+                <text id="Auction-Movement-/-T" font-family="Roboto-Medium, Roboto" font-size="26" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="22.4710455" y="47">Auction Movement / Tender Name</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

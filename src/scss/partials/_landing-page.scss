@@ -1,0 +1,57 @@
+.landing-page {
+  padding-top: 40px;
+  .card {
+    margin: 40px;
+    min-height: 200px;
+    width: 50%;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12),
+      0 24px 24px 0 rgba(0, 0, 0, 0.26);
+    &-header-primary {
+      border-bottom: 2px solid $primary;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+    &-header-secondary {
+      border-bottom: 2px solid $secondary;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+    &-footer {
+      text-align: right;
+      width: 100%;
+      display: inline-block;
+      padding: 0px 40px 30px 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    &-footer-action {
+      padding: 10px;
+      text-transform: capitalize;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+
+      margin: 0;
+      @include transition-all;
+      &:hover {
+        background-color: $primary;
+      }
+      &.bg-secondary {
+        &:hover {
+          background-color: darken($secondary, 5);
+        }
+      }
+      &.bg-primary {
+        &:hover {
+          background-color: darken($primary, 4);
+        }
+      }
+    }
+  }
+}

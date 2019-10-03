@@ -1,0 +1,59 @@
+.auth-modal{
+    visibility: visible;
+    .auth-body{        
+        .dialog-title{
+            width: 80%;           
+        }
+    }
+}
+
+
+
+.auth-modal{
+    div[class*='MuiDialog-paper-'] {
+        max-width: 500px;
+      }
+    .auth-body{
+       .form-body{
+           &.success{
+               text-align: center;
+           }
+       }
+    }
+    .close-modal{
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top:10px;
+    }
+}
+.query-modal{
+    .auth-body{
+        padding-bottom:20px;
+    }
+    div[class*='MuiDialog-paper-'] {
+        max-width: 800px;
+      }
+      .summary{
+            display: block;
+            div[class*='MuiExpansionPanelSummary-content-'] {
+                display: block;
+            }
+      }
+      .details{
+        display: block;
+        div[class*='MuiExpansionPanelSummary-content-'] {
+            display: block;
+        }
+      }
+      .subtitle{
+          display: block;
+          width: 100%;
+          padding-top:10px;
+      }
+      p{
+          width: 95%;
+          display: block;
+      }
+     
+}

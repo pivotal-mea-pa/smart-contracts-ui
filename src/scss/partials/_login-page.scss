@@ -1,0 +1,40 @@
+.login-page {
+  padding-top: 6rem;
+  .card {
+    width: 320px;
+    min-height: 400px;
+    position: relative;
+    margin: auto;
+    padding-top: 1.5rem;
+    .lock {
+      float: right;
+      background-color: $secondary;
+      padding: 0.5rem;
+      border-radius: 50%;
+      color: #fff;
+    }
+    .form-control {
+      label {
+        color: #333 !important;
+      }
+      width: 100%;
+      div::after,
+      div::before {
+        border-bottom-color: $secondary !important;
+        &:hover {
+          border-bottom-color: $secondary !important;
+        }
+      }
+    }
+    &-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-bottom: 2rem;
+      .login-btn {
+        min-width: 90px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.activity-desc{
+    width: 80%;
+    margin-top: 10px;
+}
+.data{
+    &.name{
+        font-size: 16px;
+    }
+}
+.tender-cell{
+    &.info-cell{
+        padding: 4px 16px 4px 16px;
+        padding-right: 16px !important;
+    }
+    
+}
+
+.tab-content .tab-card-list.activities {
+    
+}
+.categories{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 55px;
+    text-align: left;
+}
+.overflow-scroll{
+    max-height: 500px;
+    overflow: scroll;
+}

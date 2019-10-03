@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1229px" height="412px" viewBox="0 0 1229 412" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Tender Timlime</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1221" height="404"></rect>
+        <filter x="-0.6%" y="-1.2%" width="101.1%" height="103.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Consumer-Dashboard-Executive-Dashboard" transform="translate(-27.000000, -331.000000)">
+            <g id="Tender-Timlime" transform="translate(31.000000, 333.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Y-Axis" transform="translate(140.000000, 330.000000)">
+                    <text id="Jan-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.335517687" y="15">Jan-19</tspan>
+                    </text>
+                    <text id="Feb-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="103.420967" y="15">Feb-19</tspan>
+                    </text>
+                    <text id="Mar-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="216.169014" y="15">Mar-19</tspan>
+                    </text>
+                    <text id="Apr-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="330.131904" y="15">Apr-19</tspan>
+                    </text>
+                    <text id="May-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="432.59919" y="15">May-19</tspan>
+                    </text>
+                    <text id="Jun-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="537.178291" y="15">Jun-19</tspan>
+                    </text>
+                    <text id="Jul-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="652.828193" y="15">Jul-19</tspan>
+                    </text>
+                    <text id="Aug-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="762.5904" y="15">Aug-19</tspan>
+                    </text>
+                    <text id="Sept-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="866.490233" y="15">Sept-19</tspan>
+                    </text>
+                    <text id="Oct-19" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="977.145576" y="15">Oct-19</tspan>
+                    </text>
+                    <g id="Y-Axis-schema" transform="translate(186.000000, 34.000000)">
+                        <text id="--Tender-Book" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" letter-spacing="0.7417586" fill="#000000" fill-opacity="0.871942935">
+                            <tspan x="44.4471238" y="19">- Tender Book</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="#FFAD4C" x="0" y="1" width="29" height="23"></rect>
+                        <text id="--B#-Bond" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" letter-spacing="0.7417586" fill="#000000" fill-opacity="0.871942935">
+                            <tspan x="236.409157" y="19">- B# Bond</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="#FF6363" x="190" y="1" width="29" height="23"></rect>
+                        <text id="--Performance-Bond" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" letter-spacing="0.7417586" fill="#000000" fill-opacity="0.871942935">
+                            <tspan x="393.434036" y="19">- Performance Bond</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="#5973FF" x="349" y="1" width="29" height="23"></rect>
+                    </g>
+                </g>
+                <g id="Graph" transform="translate(71.000000, 69.000000)" stroke-linecap="square">
+                    <path d="M20.7162162,0.5 L1092.5,0.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,40.5 L1092.5,40.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,80.5 L1092.5,80.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,120.5 L1092.5,120.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,160.5 L1092.5,160.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,200.5 L1092.5,200.5" id="Line-5" stroke="#979797" stroke-dasharray="6"></path>
+                    <path d="M20.7162162,200.5 L0.283783784,200.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M20.7162162,160.5 L0.283783784,160.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M20.7162162,120.5 L0.283783784,120.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M20.7162162,80.5 L0.283783784,80.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M20.7162162,40.5 L0.283783784,40.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M20.7162162,0.5 L0.283783784,0.5" id="Line-4" stroke="#979797"></path>
+                    <path d="M1092.5,240.640445 L20.5,240.640445" id="Line-2" stroke="#979797"></path>
+                    <path d="M20.5,0.446296296 L20.5,240.679064 L20.5,0.446296296 Z M1092.5,240.640445 L20.5,240.640445 L1092.5,240.640445 Z" id="Combined-Shape" stroke="#000000"></path>
+                </g>
+                <g id="X-axis-Label" transform="translate(50.000000, 60.000000)" fill="#000000" fill-opacity="0.871942935" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="1.071429">
+                    <text id="5">
+                        <tspan x="5.48576987" y="215">5</tspan>
+                    </text>
+                    <text id="10">
+                        <tspan x="0.47153975" y="175">10</tspan>
+                    </text>
+                    <text id="15">
+                        <tspan x="0.47153975" y="135">15</tspan>
+                    </text>
+                    <text id="20">
+                        <tspan x="0.47153975" y="95">20</tspan>
+                    </text>
+                    <text id="25">
+                        <tspan x="0.47153975" y="55">25</tspan>
+                    </text>
+                    <text id="30">
+                        <tspan x="0.47153975" y="15">30</tspan>
+                    </text>
+                </g>
+                <g id="Blocks" transform="translate(116.000000, 228.000000)">
+                    <rect id="Rectangle" fill="#FFAD4C" x="0" y="46" width="29" height="35"></rect>
+                    <rect id="Rectangle" fill="#FF6363" x="29" y="58" width="28" height="23"></rect>
+                    <rect id="Rectangle" fill="#5973FF" x="57" y="0" width="29" height="81"></rect>
+                    <text id="4.3" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4" y="64">4.3</tspan>
+                    </text>
+                    <text id="2.5" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33" y="74">2.5</tspan>
+                    </text>
+                    <text id="10" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="62" y="17">10</tspan>
+                    </text>
+                </g>
+                <g id="Blocks" transform="translate(227.000000, 149.000000)">
+                    <rect id="Rectangle" fill="#FFAD4C" x="0" y="137" width="29" height="23"></rect>
+                    <rect id="Rectangle" fill="#FF6363" x="29" y="125" width="28" height="35"></rect>
+                    <rect id="Rectangle" fill="#5973FF" x="57" y="0" width="29" height="160"></rect>
+                    <text id="2.5" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4" y="154">2.5</tspan>
+                    </text>
+                    <text id="4.4" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33" y="142">4.4</tspan>
+                    </text>
+                    <text id="20" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="63" y="15">20</tspan>
+                    </text>
+                </g>
+                <g id="Blocks" transform="translate(338.000000, 228.000000)">
+                    <rect id="Rectangle" fill="#FFAD4C" x="0" y="56" width="29" height="25"></rect>
+                    <rect id="Rectangle" fill="#FF6363" x="29" y="67" width="28" height="14"></rect>
+                    <rect id="Rectangle" fill="#5973FF" x="57" y="0" width="29" height="81"></rect>
+                    <text id="3.5" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="5" y="69">3.5</tspan>
+                    </text>
+                    <text id="1.8" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33" y="79">1.8</tspan>
+                    </text>
+                    <text id="10" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="62" y="17">10</tspan>
+                    </text>
+                </g>
+                <g id="Blocks" transform="translate(449.000000, 155.000000)">
+                    <rect id="Rectangle" fill="#FFAD4C" x="0" y="117" width="29" height="37"></rect>
+                    <rect id="Rectangle" fill="#FF6363" x="29" y="128" width="28" height="26"></rect>
+                    <rect id="Rectangle" fill="#5973FF" x="57" y="0" width="29" height="154"></rect>
+                    <text id="4.5" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4" y="132">4.5</tspan>
+                    </text>
+                    <text id="2.8" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33" y="141">2.8</tspan>
+                    </text>
+                    <text id="19" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="63" y="15">19</tspan>
+                    </text>
+                </g>
+                <text id="Year-Review" font-family="Roboto-Medium, Roboto" font-size="26" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                    <tspan x="21.0070428" y="41">Year Review</tspan>
+                </text>
+                <g id="Terms" transform="translate(1101.000000, 0.000000)">
+                    <rect id="bounds" x="1" y="0" width="97" height="48"></rect>
+                    <path d="M0.551671733,40 L68,40" id="line" stroke="#C6AB6E" stroke-width="2"></path>
+                    <text id="Input-tex" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="24" fill="#202020">
+                        <tspan x="9" y="33">2019</tspan>
+                    </text>
+                    <g id="Material/Icons-black/arrow-drop-down" opacity="0.54" transform="translate(44.000000, 16.000000)" fill="#000000">
+                        <polygon id="Shape" points="7 10 12 15 17 10"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

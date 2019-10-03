@@ -1,0 +1,46 @@
+.drawer-right{
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    &::before{
+        content: "";
+        height: 100%;
+        width: 3px;
+        @include gradient-vertical-green-gold();
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top:0;
+        bottom:0;
+    }
+    .drawer-inner{
+        .drawer-header{
+            .title{
+
+            }
+            .sub-title{
+                color:$dark-grey;
+            }
+        }
+        .drawer-body{   
+            p{
+                color:$dark-grey;
+            }
+        }
+        .drawer-footer{
+            text-align: right;
+            margin-top: 40px;
+            .cta-actions{
+                display: inline-block;
+                &.left{
+
+                }
+                &.right{
+                    margin-left: 20px;
+
+                }
+            }
+        }
+    }
+}

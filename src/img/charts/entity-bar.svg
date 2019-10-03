@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="609px" height="378px" viewBox="0 0 609 378" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Vertical Bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="601" height="370"></rect>
+        <filter x="-1.2%" y="-1.4%" width="102.3%" height="103.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Consumer-Dashboard-Executive-Dashboard" transform="translate(-646.000000, -752.000000)">
+            <g id="Vertical-Bar" transform="translate(650.000000, 754.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-2" transform="translate(15.000000, 10.000000)">
+                    <text id="2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="181.463993" y="337">2</tspan>
+                    </text>
+                    <text id="3" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="232.13066" y="337">3</tspan>
+                    </text>
+                    <text id="4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="282.797327" y="337">4</tspan>
+                    </text>
+                    <text id="5" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="333.463993" y="337">5</tspan>
+                    </text>
+                    <text id="6" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="384.13066" y="337">6</tspan>
+                    </text>
+                    <text id="7" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="434.797327" y="337">7</tspan>
+                    </text>
+                    <text id="8" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="485.463993" y="337">8</tspan>
+                    </text>
+                    <path d="M85,54 L85,312.469262 L85,54 Z M85,312.5 L543,312.5 L85,312.5 Z" id="Combined-Shape" stroke="#979797" stroke-linecap="square"></path>
+                    <text id="Category-4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.184528687" y="89">Category 4</tspan>
+                    </text>
+                    <text id="Category-3" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.184528687" y="149">Category 3</tspan>
+                    </text>
+                    <text id="Category-2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.184528687" y="209">Category 2</tspan>
+                    </text>
+                    <text id="Category-1" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.184528687" y="269">Category 1</tspan>
+                    </text>
+                    <text id="Category-Stats" font-family="Roboto-Medium, Roboto" font-size="26" font-weight="400" letter-spacing="1.071429" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="0.0244110625" y="27">Category Stats</tspan>
+                    </text>
+                    <text id="1" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="130.797327" y="337">1</tspan>
+                    </text>
+                    <path d="M134.666667,54 L134.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M184.666667,54 L184.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M234.666667,54 L234.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M285.666667,54 L285.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M336.666667,54 L336.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M386.666667,54 L386.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M437.666667,54 L437.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M488.666667,54 L488.666667,312.469262" id="Line-8" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M538.666667,54 L538.666667,312.469262" id="Line-8" fill="#5973FF"></path>
+                    <rect id="Rectangle" fill="#5973FF" x="85" y="69" width="62" height="38"></rect>
+                    <text id="1.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#FFFFFF" fill-opacity="0.871942935">
+                        <tspan x="119.126355" y="92">1.2</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#5973FF" x="85" y="125" width="83" height="38"></rect>
+                    <text id="1.4" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#FFFFFF" fill-opacity="0.871942935">
+                        <tspan x="142.126355" y="147">1.4</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#5973FF" x="85" y="185" width="163" height="38"></rect>
+                    <text id="3.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#FFFFFF" fill-opacity="0.871942935">
+                        <tspan x="218.126355" y="209">3.2</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#5973FF" x="85" y="245" width="411" height="38"></rect>
+                    <text id="8.2" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#FFFFFF" fill-opacity="0.871942935">
+                        <tspan x="469.126355" y="269">8.2</tspan>
+                    </text>
+                    <text id="0" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="80.1306599" y="337">0</tspan>
+                    </text>
+                    <text id="9" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.9183677" fill="#000000" fill-opacity="0.871942935">
+                        <tspan x="536.13066" y="337">9</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

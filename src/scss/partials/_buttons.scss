@@ -1,0 +1,139 @@
+button{
+    &.solid{
+        span{
+            color:#fff;
+        }
+    }
+}
+
+.btn-secondary{
+    &[class*='MuiButton-outlined-']{
+        background-color: transparent !important;        
+        border-color:$secondary;
+        span{
+            color:$secondary !important;
+        }
+    }
+}
+.internal{
+    &.outlined{
+        background-color: transparent !important;        
+        border:1px solid $internal;
+        span{
+            color:$internal;
+        }
+    }
+    &.submit{
+        background-color: $internal !important;  
+        span{
+            color:#fff !important;
+        }      
+    }
+    &.secondary{
+        background-color: transparent !important;        
+        border-color:$internal;
+        span{
+            color:$internal;
+        }
+        
+        &.notifications{
+            .notifcation-count{            
+                background-color: $internal;
+                color:#fff;
+                position: absolute;
+                right: 0;
+                width: 40px;
+                height: 36px;
+                border-radius: 0px 3px 3px 0px;
+                .notification-text{
+                    position: relative;
+                    top:6px;
+                    color:#fff;
+                    .count{
+                        position: relative;
+                        top:-6px;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+    .btn-secondary{        
+        &[class*='MuiButton-outlined-']{
+            background-color: transparent !important;        
+            border-color:$internal;
+            span{
+                color:$internal !important;
+            }
+        }
+    }
+
+.btn{   
+    &.notifications{
+       
+        &.secondary{
+            .notifcation-count{    
+                background-color: $internal;
+            }
+
+        }
+        &.primary{
+            .notifcation-count{    
+                background-color: $internal;
+            }
+        }       
+    }
+}
+}
+
+.btn{
+    &.tendor{
+        width: 100px;
+
+    }
+    &.notifications{
+        width: 100px;
+        &.secondary{
+            .notifcation-count{    
+                background-color: $secondary;
+            }
+
+        }
+        &.primary{
+            .notifcation-count{    
+                background-color: $primary;
+            }
+        }
+        .notifcation-count{            
+           
+            color:#fff;
+            position: absolute;
+            right: 0;
+            width: 40px;
+            height: 36px;
+            border-radius: 0px 3px 3px 0px;
+            .notification-text{
+                position: relative;
+                top:6px;
+                .count{
+                    position: relative;
+                    top:-6px;
+                }
+            }
+        }
+        .button-text{
+            position: relative;
+            left: -19px;
+        }
+    }
+}
+.info-btn{
+    padding: 0 !important;
+    min-width: 20px !important;
+}
+
+
+div[class*="MuiDialogActions-root-"]{
+    width: 97%;
+    float: right;
+}

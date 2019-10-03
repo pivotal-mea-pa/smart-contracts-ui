@@ -1,0 +1,507 @@
+.tender-page {
+  &.internal{
+    .tender-summary {
+      .tender-details{      
+        ul{
+          li{          
+            .summary-title{
+              color:$internal;              
+            }           
+            &:nth-child(2){          
+              &:before{
+                content:"";               
+                background-color:$internal;               
+              }
+              &:after{               
+                background-color:$internal;            
+              }
+            }
+          }
+        }        
+        &:after{
+          content: "";
+          height: 28px;
+          width: 2px;
+          display: inline-block;
+          background-color: $grey;
+          position: absolute;
+          right: 0px;
+          top: 14px;
+        }
+      }
+      .summary-detail {
+        font-size: 1.5rem;
+      }
+    }
+    .single-tabs{
+      display: block;
+      & > div > div > span {
+        background-color: $internal;
+      }
+    }
+  
+    .tender-submissions-container{
+      .submission-body{
+        .panel-header{
+          border-bottom:2px solid $internal;
+        }
+      }
+    }
+    .history{
+      background-color:rgba($internal,0.2);
+      .activities{
+        &:before{
+          background-color:$internal;
+        }
+        .tab-card{
+          &.activity-card{
+            border-bottom:3px solid $internal;
+            &:before{
+              background-color: $internal;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.vendor{
+    span[class*="MuiPrivateTabIndicator-root-"]{
+      background-color: $secondary;
+    }
+    .single-tabs{
+      & >div & >div & >div span{
+        background-color: $secondary;
+      }
+    }
+   
+    .tender-summary {
+      .tender-details{
+        position: relative;
+        width: 20%;
+        text-align: left;
+        ul{
+          li{
+            padding-right: 90px;
+            text-align: center;
+            .summary-title{
+              color:$secondary;
+              
+            }
+            &:nth-child(1){
+              padding-left: 10px;
+            }
+            &:nth-child(2){
+              position: relative;
+              &:before{
+                content:"";
+                height: 20px;
+                width: 2px;
+                background-color:$secondary;
+                display:inline-block;
+                position: absolute;
+                left: -45px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+  
+              }
+              &:after{
+                content:"";
+                height: 20px;
+                width: 2px;
+                background-color:$secondary;
+                display:inline-block;
+                position: absolute;
+                right: 45px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+  
+              }
+            }
+          }
+        }
+        &:last-child{
+          &::after{
+            display: none;
+          }
+        }
+        &:after{
+          content: "";
+          height: 28px;
+          width: 2px;
+          display: inline-block;
+          background-color: $grey;
+          position: absolute;
+          right: 0px;
+          top: 14px;
+        }
+      }
+      .summary-detail {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  &.consumer{
+    display: block;
+      .single-tabs{
+        button{
+          min-width: 110px;
+        }
+      }
+      .tender-summary {
+        .tender-details{
+          position: relative;
+          width: 20%;
+          text-align: left;
+          ul{
+            li{
+              padding-right: 90px;
+              text-align: center;
+              .summary-title{
+                color:$primary;
+                
+              }
+              &:nth-child(1){
+                padding-left: 10px;
+              }
+              &:nth-child(2){
+                position: relative;
+                &:before{
+                  content:"";
+                  height: 20px;
+                  width: 2px;
+                  background-color:$primary;
+                  display:inline-block;
+                  position: absolute;
+                  left: -45px;
+                  top: 0;
+                  bottom: 0;
+                  margin: auto;
+    
+                }
+                &:after{
+                  content:"";
+                  height: 20px;
+                  width: 2px;
+                  background-color:$primary;
+                  display:inline-block;
+                  position: absolute;
+                  right: 45px;
+                  top: 0;
+                  bottom: 0;
+                  margin: auto;
+    
+                }
+              }
+            }
+          }
+          &:last-child{
+            &::after{
+              display: none;
+            }
+          }
+          &:after{
+            content: "";
+            height: 28px;
+            width: 2px;
+            display: inline-block;
+            background-color: $grey;
+            position: absolute;
+            right: 0px;
+            top: 14px;
+          }
+        }
+        .summary-detail {
+          font-size: 1.5rem;
+        }
+      }           
+  }
+  .tender-body{
+    padding:20px  !important;
+    .tab-detail{
+      padding: 20px;
+    }
+  }
+  .single-tabs{
+    button{
+      min-width: 130px;
+    }
+    span[class*="MuiPrivateTabIndicator-root-"]{
+     
+    }
+  }
+  .tab-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+  } 
+
+  .due-date{
+    border-radius: 3px;
+    padding:5px 20px;
+    margin-left: 10px;
+  }
+  
+
+  .history {
+    min-height: 92vh;
+  
+    visibility: visible;
+    padding: 25px !important;
+    padding-top: 25px !important;
+
+    .activities{
+      position: relative;
+      overflow: hidden;
+      &:before{
+        content: "";
+        height: 100%;
+        width: 3px;
+        display: inline-block;
+        background-color: $secondary;
+        position: absolute;
+        left:26px;
+      }
+      .tab-card{
+        &.activity-card{
+          min-height: 135px;
+          display: block;
+          margin: 40px;
+          margin-left: 60px;
+          padding:10px;
+          border-bottom: 3px solid $secondary;
+          position: relative;
+          overflow: visible;
+          @include transition-all();
+          cursor: pointer;
+          &:hover{
+            @include box-shadow-one();
+          }
+          &.tender{
+            border-bottom: 3px solid $primary;
+          }
+          &:before{
+            content: "";
+            height: 15px;
+            width: 15px;
+            background-color: $secondary;
+            border-radius: 100%;
+            display: inline-block;
+            position: absolute;
+            left: -40px;
+            top:0%;
+            bottom:0;
+            margin: auto;
+          }
+          .card-header{
+            padding-bottom: 20px;
+            .activity-type{
+              display:inline-block;            
+            }
+            .activity-timestamp{
+              display: inline-block;
+              float: right;
+            }
+          }
+          .card-body{
+            padding-bottom: 20px;
+            .consumer-name{
+              font-size: 22px;
+              color:grey;
+            }
+          }
+          .card-footer{
+            position: absolute;
+            bottom:20px;           
+            width: calc(100% - 20px);
+            .star-rating{
+              display: inline-block;
+            }
+            .bid-amount{
+              display: inline-block;
+              float: right;
+              font-size: 20px;
+              color:$grey;
+            }
+          }
+        }
+      }
+    }
+  }
+  .active-filters-form-control {
+    min-width: 120px;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid darken($grey, 10%);
+  }
+  .tender-summary {
+    .tender-details{
+      position: relative;
+      width: 20%;
+      text-align: left;
+      ul{
+        li{
+          padding-right: 90px;
+          text-align: center;
+          .summary-title{
+            color:$secondary;
+            
+          }
+          &:nth-child(1){
+            padding-left: 10px;
+          }
+          &:nth-child(2){
+            position: relative;
+            &:before{
+              content:"";
+              height: 20px;
+              width: 2px;
+              background-color:$secondary;
+              display:inline-block;
+              position: absolute;
+              left: -45px;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+
+            }
+            &:after{
+              content:"";
+              height: 20px;
+              width: 2px;
+              background-color:$secondary;
+              display:inline-block;
+              position: absolute;
+              right: 45px;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+
+            }
+          }
+        }
+      }
+      &:last-child{
+        &::after{
+          display: none;
+        }
+      }
+      &:after{
+        content: "";
+        height: 28px;
+        width: 2px;
+        display: inline-block;
+        background-color: $grey;
+        position: absolute;
+        right: 0px;
+        top: 14px;
+      }
+    }
+    .summary-detail {
+      font-size: 1.5rem;
+    }
+  }
+  .tender-tab {
+    border: 1px solid darken($grey, 10%);
+  }
+  .bid-tab {
+    border-bottom: 2px solid $primary;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .card-table{
+    padding: 20px;
+    margin: 40px 20px 6px 1px;
+  }
+}
+.table-header{
+  margin: 20px 0px 0px 0px !important;
+}
+
+.drawer-body{
+  padding: 20px;
+  max-width: 400px;
+  .header-section{
+    .subtitle{
+
+    }
+  }
+  .form-body{
+    margin-top: 10px;
+
+  }
+  .upload-container{
+    position: relative;
+    width:100%;
+    .upload-btn{
+        position: absolute;
+        right: 0;
+        bottom:5px;
+        border-radius: 3px 3px 0px 0px;
+        color:#fff;
+    }
+}
+  .cta-actions{
+    text-align: right;
+    margin-top: 40px;
+    button{
+      margin-left: 20px;
+    }
+  }
+}
+
+
+.mb-3{
+  @include box-shadow-one();
+  position: relative;
+  &:after{
+     content: "";
+     width: 100%;
+     height: 2px;    
+     display: inline-block;
+     position: absolute;
+     bottom:0;
+     left: 0;
+     right: 0;
+  }
+}
+
+.vendor{
+  .mb-3{
+    &:after{
+      @include gradient-green-gold();
+    }
+  }
+}
+.consumer{
+  .mb-3{
+    &:after{
+      @include gradient-gold-green();
+    }
+  }
+}
+.internal{
+  .mb-3{
+    &:after{
+      @include gradient-internal();
+    }
+  }
+}
+
+.contains-icon{
+  font-size: 12px;
+  i{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .with-icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.short-id{
+    width: 86px;
+    overflow: hidden;
+    display: inline-block;
+}

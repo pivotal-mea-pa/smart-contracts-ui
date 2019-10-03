@@ -1,0 +1,39 @@
+.success-message-container{
+    text-align: center;
+    .success-message{
+        background-color:#0C9D58;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        display: inline-block;
+        border-radius: 100%;
+        .success-text{
+            color:#fff;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom:0;
+            margin: auto;
+            height: 35px;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+        }
+    }
+}
+
+.form-body{
+    &.success{
+        color:#fff;
+        font-size: 22px;
+        p{
+            font-size: 18px;
+            color:#333;
+        }
+        .blockchain-id{
+            color:$secondary;
+        }
+    }
+}

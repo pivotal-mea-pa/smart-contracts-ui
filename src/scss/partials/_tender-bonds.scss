@@ -1,0 +1,20 @@
+.bonds{
+    color:#4C4C4C;
+   
+}
+.status{
+    &.approved{
+        color:$primary;
+    }
+    &.pending{
+        color:#4C4C4C;
+    }
+    i{
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}
+.table-header{
+    font-weight: 500;
+}
+

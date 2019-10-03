@@ -1,0 +1,2347 @@
+/* Sketch doesnt export gradient borders at this point */
+* {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  color: #006500; }
+  a:hover {
+    color: #c6ab6e; }
+
+p {
+  color: #757575;
+  font-size: 14px; }
+
+header {
+  background-color: #f5f5f5 !important; }
+
+.text-right {
+  text-align: right; }
+
+.bg-primary {
+  background-color: #006500 !important; }
+
+.bg-secondary {
+  background-color: #c6ab6e !important; }
+
+.bg-muted {
+  background-color: #f5f5f5; }
+
+.bg-info {
+  background-color: #b5b5b5; }
+
+.bg-danger {
+  background-color: #e9595a; }
+
+.text-primary {
+  color: #006500; }
+
+.text-secondary {
+  color: #c6ab6e; }
+
+.text-muted {
+  color: #f5f5f5 !important; }
+
+.text-info {
+  color: #b5b5b5 !important; }
+
+.text-danger {
+  color: #e9595a !important; }
+
+.text-white {
+  color: #fff !important; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-capitalize {
+  text-transform: capitalize !important; }
+
+.btn-primary {
+  background-color: #006500 !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-weight: 400 !important; }
+  .btn-primary span {
+    text-transform: uppercase !important; }
+  .btn-primary:hover {
+    background-color: #003200 !important; }
+
+.btn-outlined-primary {
+  border-color: #006500 !important;
+  color: #006500 !important; }
+  .btn-outlined-primary:hover {
+    background-color: #006500 !important;
+    color: #fff !important; }
+
+.btn-secondary {
+  background-color: #c6ab6e !important;
+  color: #fff !important; }
+  .btn-secondary span {
+    color: #fff; }
+  .btn-secondary:hover {
+    background-color: #b89649 !important; }
+
+.internal .btn-secondary {
+  background-color: #3B60A0 !important;
+  color: #fff !important; }
+  .internal .btn-secondary span {
+    color: #fff; }
+  .internal .btn-secondary:hover {
+    background-color: #2d4a7b !important; }
+
+.internal .btn-primary {
+  background-color: #3B60A0 !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-weight: 400 !important; }
+  .internal .btn-primary:hover {
+    background-color: #2d4a7b !important; }
+
+.internal .btn-outlined-primary {
+  border-color: #3B60A0 !important;
+  color: #3B60A0 !important; }
+  .internal .btn-outlined-primary:hover {
+    background-color: #3B60A0 !important;
+    color: #fff !important; }
+
+.internal button[class*="MuiButton-outlinedPrimary"] {
+  color: #3B60A0;
+  border: 1px solid rgba(59, 96, 160, 0.5); }
+  .internal button[class*="MuiButton-outlinedPrimary"]:hover {
+    background-color: rgba(59, 96, 160, 0.08); }
+
+.container-narrow {
+  max-width: 600px;
+  margin: auto; }
+
+.container-normal {
+  max-width: 900px;
+  margin: auto; }
+
+.container-wide {
+  width: 100%; }
+
+.modal {
+  position: absolute;
+  padding: 1.5rem;
+  top: 20%;
+  left: 32%;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  outline: 'none'; }
+
+.p-0 {
+  padding: 0 !important; }
+
+.p-1 {
+  padding: 0.25rem; }
+
+.p-2 {
+  padding: 0.5rem; }
+
+.p-3 {
+  padding: 1rem; }
+
+.p-4 {
+  padding: 1.5rem; }
+
+.p-5 {
+  padding: 3rem; }
+
+.pt-0 {
+  padding-top: 0 !important; }
+
+.pt-1 {
+  padding-top: 0.25rem; }
+
+.pt-2 {
+  padding-top: 0.5rem; }
+
+.pt-3 {
+  padding-top: 1rem; }
+
+.pt-4 {
+  padding-top: 1.5rem; }
+
+.pt-5 {
+  padding-top: 3rem; }
+
+.pb-0 {
+  padding-bottom: 0 !important; }
+
+.pb-1 {
+  padding-bottom: 0.25rem; }
+
+.pb-2 {
+  padding-bottom: 0.5rem; }
+
+.pb-3 {
+  padding-bottom: 1rem; }
+
+.pb-4 {
+  padding-bottom: 1.5rem; }
+
+.pb-5 {
+  padding-bottom: 3rem; }
+
+.pl-0 {
+  padding-left: 0 !important; }
+
+.pl-1 {
+  padding-left: 0.25rem; }
+
+.pl-2 {
+  padding-left: 0.5rem; }
+
+.pl-3 {
+  padding-left: 1rem; }
+
+.pl-4 {
+  padding-left: 1.5rem; }
+
+.pl-5 {
+  padding-left: 3rem; }
+
+.pr-0 {
+  padding-right: 0 !important; }
+
+.pr-1 {
+  padding-right: 0.25rem; }
+
+.pr-2 {
+  padding-right: 0.5rem; }
+
+.pr-3 {
+  padding-right: 1rem; }
+
+.pr-4 {
+  padding-right: 1.5rem; }
+
+.pr-5 {
+  padding-right: 3rem; }
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; }
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem; }
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.px-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+.px-5 {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.p-auto {
+  padding-left: auto;
+  padding-right: auto; }
+
+.m-0 {
+  margin: 0 !important; }
+
+.m-1 {
+  margin: 0.25rem; }
+
+.m-2 {
+  margin: 0.5rem; }
+
+.m-3 {
+  margin: 1rem; }
+
+.m-4 {
+  margin: 1.5rem; }
+
+.m-5 {
+  margin: 3rem; }
+
+.mt-0 {
+  margin-top: 0 !important; }
+
+.mt-1 {
+  margin-top: 0.25rem; }
+
+.mt-2 {
+  margin-top: 0.5rem; }
+
+.mt-3 {
+  margin-top: 1rem; }
+
+.mt-4 {
+  margin-top: 1.5rem; }
+
+.mt-5 {
+  margin-top: 3rem; }
+
+.mb-0 {
+  margin-bottom: 0 !important; }
+
+.mb-1 {
+  margin-bottom: 0.25rem; }
+
+.mb-2 {
+  margin-bottom: 0.5rem; }
+
+.mb-3 {
+  margin-bottom: 1rem; }
+
+.mb-4 {
+  margin-bottom: 1.5rem; }
+
+.mb-5 {
+  margin-bottom: 3rem; }
+
+.ml-0 {
+  margin-left: 0 !important; }
+
+.ml-1 {
+  margin-left: 0.25rem; }
+
+.ml-2 {
+  margin-left: 0.5rem; }
+
+.ml-3 {
+  margin-left: 1rem; }
+
+.ml-4 {
+  margin-left: 1.5rem; }
+
+.ml-5 {
+  margin-left: 3rem; }
+
+.mr-0 {
+  margin-right: 0 !important; }
+
+.mr-1 {
+  margin-right: 0.25rem; }
+
+.mr-2 {
+  margin-right: 0.5rem; }
+
+.mr-3 {
+  margin-right: 1rem; }
+
+.mr-4 {
+  margin-right: 1.5rem; }
+
+.mr-5 {
+  margin-right: 3rem; }
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem; }
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem; }
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.mx-4 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; }
+
+.mx-5 {
+  margin-left: 3rem;
+  margin-right: 3rem; }
+
+.m-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.master-page {
+  margin-top: 65px; }
+
+body {
+  margin: 0; }
+
+.spacing-top-20 {
+  margin-top: 20px !important; }
+
+.pt-left-20 {
+  padding-left: 20px !important; }
+
+.text-info svg {
+  vertical-align: text-top; }
+
+.vendor-logo {
+  max-width: 100%;
+  width: 155px;
+  display: block;
+  margin-bottom: 15px; }
+
+.eagle-bg {
+  min-height: 90vh;
+  background-image: url("./img/eagle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right; }
+
+.padd-40 {
+  padding: 20px 40px 0px 40px !important; }
+
+.notification div {
+  background-color: #cfcfcf !important;
+  color: #5c5c5c !important; }
+
+.secondary:hover:not([class*='MuiInput-disabled-']):not([class*='MuiInput-focused-']):not([class*='MuiInput-error-']):before {
+  border-bottom: 2px solid #c6ab6e !important; }
+
+.secondary > div:before {
+  border-bottom: 2px solid #c6ab6e !important; }
+
+.secondary > div:after {
+  border-bottom: 2px solid #c6ab6e !important; }
+
+.flex {
+  display: flex; }
+
+.inline {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+  .inline li {
+    display: inline-block; }
+
+.add-item {
+  margin-bottom: -0.5rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #008b7d;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+
+.tab-card ul li {
+  padding: 0px 20px; }
+  .tab-card ul li.categories-holder {
+    position: relative; }
+    .tab-card ul li.categories-holder span.item-data.categories {
+      width: 100px;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: sub;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      z-index: 1; }
+  .tab-card ul li span {
+    font-size: 14px; }
+  .tab-card ul li .block-color {
+    color: #c6ab6e; }
+  .tab-card ul li.action {
+    position: absolute;
+    right: 0;
+    top: 12px; }
+  .tab-card ul li .time-stamp {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    color: #878787; }
+    .tab-card ul li .time-stamp svg {
+      position: relative;
+      top: 6px;
+      font-size: 20px;
+      color: #878787; }
+
+.chart-container img {
+  width: 100%; }
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.spinner {
+  display: inherit; }
+  .spinner i {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+
+.bg-internal {
+  background-color: #3B60A0 !important; }
+
+.auth-modal .auth-body .align-right {
+  width: 97%;
+  float: right; }
+
+.drawer-right {
+  width: 400px;
+  padding: 20px;
+  position: relative;
+  height: 100%; }
+  .drawer-right::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6ab6e+0,006500+100 */
+    background: #006500;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #006500 0%, #c6ab6e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #006500 0%, #c6ab6e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #006500 0%, #c6ab6e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=0 );
+    /* IE6-9 */
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0; }
+  .drawer-right .drawer-inner .drawer-header .sub-title {
+    color: #878787; }
+  .drawer-right .drawer-inner .drawer-body p {
+    color: #878787; }
+  .drawer-right .drawer-inner .drawer-footer {
+    text-align: right;
+    margin-top: 40px; }
+    .drawer-right .drawer-inner .drawer-footer .cta-actions {
+      display: inline-block; }
+      .drawer-right .drawer-inner .drawer-footer .cta-actions.right {
+        margin-left: 20px; }
+
+.landing-page {
+  padding-top: 40px; }
+  .landing-page .card {
+    margin: 40px;
+    min-height: 200px;
+    width: 50%;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12), 0 24px 24px 0 rgba(0, 0, 0, 0.26); }
+    .landing-page .card-header-primary {
+      border-bottom: 2px solid #006500;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding-bottom: 10px; }
+    .landing-page .card-header-secondary {
+      border-bottom: 2px solid #c6ab6e;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      display: inline-block; }
+    .landing-page .card-footer {
+      text-align: right;
+      width: 100%;
+      display: inline-block;
+      padding: 0px 40px 30px 0;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    .landing-page .card-footer-action {
+      padding: 10px;
+      text-transform: capitalize;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      margin: 0;
+      transition: all 0.5s ease; }
+      .landing-page .card-footer-action:hover {
+        background-color: #006500; }
+      .landing-page .card-footer-action.bg-secondary:hover {
+        background-color: #bfa05c; }
+      .landing-page .card-footer-action.bg-primary:hover {
+        background-color: #005100; }
+
+.login-page {
+  padding-top: 6rem; }
+  .login-page .card {
+    width: 320px;
+    min-height: 400px;
+    position: relative;
+    margin: auto;
+    padding-top: 1.5rem; }
+    .login-page .card .lock {
+      float: right;
+      background-color: #c6ab6e;
+      padding: 0.5rem;
+      border-radius: 50%;
+      color: #fff; }
+    .login-page .card .form-control {
+      width: 100%; }
+      .login-page .card .form-control label {
+        color: #333 !important; }
+      .login-page .card .form-control div::after,
+      .login-page .card .form-control div::before {
+        border-bottom-color: #c6ab6e !important; }
+        .login-page .card .form-control div::after:hover,
+        .login-page .card .form-control div::before:hover {
+          border-bottom-color: #c6ab6e !important; }
+    .login-page .card-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-bottom: 2rem; }
+      .login-page .card-footer .login-btn {
+        min-width: 90px; }
+
+.vendor-dashboard .dashboard-tabs {
+  position: relative;
+  top: 1px;
+  min-height: 40px; }
+  .vendor-dashboard .dashboard-tabs button[aria-selected="true"] {
+    background-color: rgba(198, 171, 110, 0.2); }
+  .vendor-dashboard .dashboard-tabs button {
+    min-height: 35px; }
+  .vendor-dashboard .dashboard-tabs [role="tablist"] > span {
+    display: none; }
+
+.vendor-dashboard .tab-content {
+  width: 100%;
+  background: rgba(198, 171, 110, 0.2);
+  min-height: 650px; }
+  .vendor-dashboard .tab-content.account {
+    width: 100%; }
+    .vendor-dashboard .tab-content.account .account-details {
+      width: 100%;
+      padding: 10px; }
+      .vendor-dashboard .tab-content.account .account-details .stack {
+        display: block; }
+        .vendor-dashboard .tab-content.account .account-details .stack > div {
+          width: 80%;
+          background-color: #fff; }
+  .vendor-dashboard .tab-content .tab-content-header {
+    padding: 1rem; }
+    .vendor-dashboard .tab-content .tab-content-header .tab-content-header-text {
+      font-size: 2rem;
+      padding-top: 1rem;
+      display: inline-block; }
+    .vendor-dashboard .tab-content .tab-content-header .active-search {
+      color: #b5b5b5;
+      padding-top: 1rem; }
+  .vendor-dashboard .tab-content .active-filters-form-control {
+    min-width: 100px;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid gainsboro; }
+  .vendor-dashboard .tab-content .tab-card-list {
+    padding: 1rem; }
+    .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row {
+      position: relative;
+      padding: 5px 0px;
+      background-color: #fff;
+      margin-bottom: 10px;
+      display: block;
+      -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+      -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+      box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row:after {
+        content: "";
+        height: 3px;
+        width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+        background: #006500;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 );
+        /* IE6-9 */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+      .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell {
+        padding-right: 20px;
+        border-bottom: none;
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        font-size: 12px; }
+        .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell .block-color {
+          color: #c6ab6e; }
+        .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder {
+          position: relative; }
+          .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder .categories {
+            width: 100px;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: sub;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 1; }
+        .vendor-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.action {
+          position: absolute;
+          right: 0;
+          top: 8px; }
+    .vendor-dashboard .tab-content .tab-card-list.activities {
+      position: relative;
+      overflow: hidden; }
+      .vendor-dashboard .tab-content .tab-card-list.activities:before {
+        content: '';
+        height: 100%;
+        width: 3px;
+        display: inline-block;
+        background-color: #c6ab6e;
+        position: absolute;
+        left: 22px; }
+      .vendor-dashboard .tab-content .tab-card-list.activities .tab-card {
+        width: 90%;
+        margin-left: 40px; }
+    .vendor-dashboard .tab-content .tab-card-list .tab-card {
+      width: 100%;
+      padding: 1rem 10px;
+      margin-bottom: 1rem;
+      transition: all 0.5s ease;
+      cursor: pointer; }
+      .vendor-dashboard .tab-content .tab-card-list .tab-card:hover {
+        -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .vendor-dashboard .tab-content .tab-card-list .tab-card.activity-card {
+        border-bottom: 2px solid #006500;
+        position: relative;
+        overflow: visible; }
+        .vendor-dashboard .tab-content .tab-card-list .tab-card.activity-card:before {
+          content: '';
+          height: 15px;
+          width: 15px;
+          background-color: #c6ab6e;
+          border-radius: 100%;
+          display: inline-block;
+          position: absolute;
+          left: -40px;
+          top: 0%;
+          bottom: 0;
+          margin: auto; }
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-primary svg,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-secondary svg,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-info svg,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-danger svg {
+        vertical-align: middle; }
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-primary span,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-secondary span,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-info span,
+      .vendor-dashboard .tab-content .tab-card-list .tab-card .text-danger span {
+        display: inline-block;
+        vertical-align: middle; }
+
+.consumer-dashboard .dashboard-tabs {
+  position: relative;
+  top: 1px;
+  min-height: 40px; }
+  .consumer-dashboard .dashboard-tabs button[aria-selected="true"] {
+    background-color: rgba(79, 90, 101, 0.2); }
+  .consumer-dashboard .dashboard-tabs button {
+    min-height: 35px; }
+  .consumer-dashboard .dashboard-tabs [role="tablist"] > span {
+    display: none; }
+
+.consumer-dashboard .tab-content {
+  width: 100%;
+  background: rgba(79, 90, 101, 0.2);
+  min-height: 650px; }
+  .consumer-dashboard .tab-content.account {
+    width: 100%; }
+    .consumer-dashboard .tab-content.account .account-details {
+      width: 100%;
+      padding: 10px; }
+      .consumer-dashboard .tab-content.account .account-details .stack {
+        display: block; }
+        .consumer-dashboard .tab-content.account .account-details .stack [class*="MuiInputBase-formControl-"] {
+          width: 80%;
+          background-color: #fff; }
+  .consumer-dashboard .tab-content .tab-content-header {
+    padding: 1rem; }
+    .consumer-dashboard .tab-content .tab-content-header .tab-content-header-text {
+      font-size: 2rem;
+      padding-top: 1rem;
+      display: inline-block; }
+    .consumer-dashboard .tab-content .tab-content-header .active-search {
+      color: #b5b5b5;
+      padding-top: 1rem; }
+  .consumer-dashboard .tab-content .active-filters-form-control {
+    min-width: 100px;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid gainsboro; }
+  .consumer-dashboard .tab-content .tab-card-list {
+    padding: 1rem; }
+    .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row {
+      position: relative;
+      padding: 5px 0px;
+      background-color: #fff;
+      margin-bottom: 10px;
+      display: block;
+      -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+      -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+      box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row:after {
+        content: "";
+        height: 3px;
+        width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+        background: #006500;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 );
+        /* IE6-9 */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+      .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell {
+        padding-right: 20px;
+        border-bottom: none;
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        font-size: 12px; }
+        .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.block-color {
+          color: #006500; }
+        .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder {
+          position: relative; }
+          .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder .categories {
+            width: 100px;
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: sub;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 1; }
+        .consumer-dashboard .tab-content .tab-card-list.tenders .tender-row .tender-cell.action {
+          position: absolute;
+          right: 0;
+          top: 8px; }
+    .consumer-dashboard .tab-content .tab-card-list.activities {
+      position: relative;
+      overflow: hidden; }
+      .consumer-dashboard .tab-content .tab-card-list.activities:before {
+        content: '';
+        height: 100%;
+        width: 3px;
+        display: inline-block;
+        background-color: #c6ab6e;
+        position: absolute;
+        left: 22px; }
+      .consumer-dashboard .tab-content .tab-card-list.activities .tab-card {
+        width: 90%;
+        margin-left: 40px; }
+    .consumer-dashboard .tab-content .tab-card-list .tab-card {
+      width: 100%;
+      padding: 1rem 10px;
+      margin-bottom: 1rem;
+      transition: all 0.5s ease;
+      cursor: pointer; }
+      .consumer-dashboard .tab-content .tab-card-list .tab-card:hover {
+        -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .consumer-dashboard .tab-content .tab-card-list .tab-card.activity-card {
+        border-bottom: 2px solid #006500;
+        position: relative;
+        overflow: visible; }
+        .consumer-dashboard .tab-content .tab-card-list .tab-card.activity-card:before {
+          content: '';
+          height: 15px;
+          width: 15px;
+          background-color: #c6ab6e;
+          border-radius: 100%;
+          display: inline-block;
+          position: absolute;
+          left: -40px;
+          top: 0%;
+          bottom: 0;
+          margin: auto; }
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-primary svg,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-secondary svg,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-info svg,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-danger svg {
+        vertical-align: middle; }
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-primary span,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-secondary span,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-info span,
+      .consumer-dashboard .tab-content .tab-card-list .tab-card .text-danger span {
+        display: inline-block;
+        vertical-align: middle; }
+
+.tender-page.internal .tender-summary .tender-details ul li .summary-title {
+  color: #3B60A0; }
+
+.tender-page.internal .tender-summary .tender-details ul li:nth-child(2):before {
+  content: "";
+  background-color: #3B60A0; }
+
+.tender-page.internal .tender-summary .tender-details ul li:nth-child(2):after {
+  background-color: #3B60A0; }
+
+.tender-page.internal .tender-summary .tender-details:after {
+  content: "";
+  height: 28px;
+  width: 2px;
+  display: inline-block;
+  background-color: #f5f5f5;
+  position: absolute;
+  right: 0px;
+  top: 14px; }
+
+.tender-page.internal .tender-summary .summary-detail {
+  font-size: 1.5rem; }
+
+.tender-page.internal .single-tabs {
+  display: block; }
+  .tender-page.internal .single-tabs > div > div > span {
+    background-color: #3B60A0; }
+
+.tender-page.internal .tender-submissions-container .submission-body .panel-header {
+  border-bottom: 2px solid #3B60A0; }
+
+.tender-page.internal .history {
+  background-color: rgba(59, 96, 160, 0.2); }
+  .tender-page.internal .history .activities:before {
+    background-color: #3B60A0; }
+  .tender-page.internal .history .activities .tab-card.activity-card {
+    border-bottom: 3px solid #3B60A0; }
+    .tender-page.internal .history .activities .tab-card.activity-card:before {
+      background-color: #3B60A0; }
+
+.tender-page.vendor span[class*="MuiPrivateTabIndicator-root-"] {
+  background-color: #c6ab6e; }
+
+.tender-page.vendor .single-tabs > div .tender-page.vendor .single-tabs > div .tender-page.vendor .single-tabs > div span {
+  background-color: #c6ab6e; }
+
+.tender-page.vendor .tender-summary .tender-details {
+  position: relative;
+  width: 20%;
+  text-align: left; }
+  .tender-page.vendor .tender-summary .tender-details ul li {
+    padding-right: 90px;
+    text-align: center; }
+    .tender-page.vendor .tender-summary .tender-details ul li .summary-title {
+      color: #c6ab6e; }
+    .tender-page.vendor .tender-summary .tender-details ul li:nth-child(1) {
+      padding-left: 10px; }
+    .tender-page.vendor .tender-summary .tender-details ul li:nth-child(2) {
+      position: relative; }
+      .tender-page.vendor .tender-summary .tender-details ul li:nth-child(2):before {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        left: -45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+      .tender-page.vendor .tender-summary .tender-details ul li:nth-child(2):after {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+  .tender-page.vendor .tender-summary .tender-details:last-child::after {
+    display: none; }
+  .tender-page.vendor .tender-summary .tender-details:after {
+    content: "";
+    height: 28px;
+    width: 2px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0px;
+    top: 14px; }
+
+.tender-page.vendor .tender-summary .summary-detail {
+  font-size: 1.5rem; }
+
+.tender-page.consumer {
+  display: block; }
+  .tender-page.consumer .single-tabs button {
+    min-width: 110px; }
+  .tender-page.consumer .tender-summary .tender-details {
+    position: relative;
+    width: 20%;
+    text-align: left; }
+    .tender-page.consumer .tender-summary .tender-details ul li {
+      padding-right: 90px;
+      text-align: center; }
+      .tender-page.consumer .tender-summary .tender-details ul li .summary-title {
+        color: #006500; }
+      .tender-page.consumer .tender-summary .tender-details ul li:nth-child(1) {
+        padding-left: 10px; }
+      .tender-page.consumer .tender-summary .tender-details ul li:nth-child(2) {
+        position: relative; }
+        .tender-page.consumer .tender-summary .tender-details ul li:nth-child(2):before {
+          content: "";
+          height: 20px;
+          width: 2px;
+          background-color: #006500;
+          display: inline-block;
+          position: absolute;
+          left: -45px;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+        .tender-page.consumer .tender-summary .tender-details ul li:nth-child(2):after {
+          content: "";
+          height: 20px;
+          width: 2px;
+          background-color: #006500;
+          display: inline-block;
+          position: absolute;
+          right: 45px;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+    .tender-page.consumer .tender-summary .tender-details:last-child::after {
+      display: none; }
+    .tender-page.consumer .tender-summary .tender-details:after {
+      content: "";
+      height: 28px;
+      width: 2px;
+      display: inline-block;
+      background-color: #f5f5f5;
+      position: absolute;
+      right: 0px;
+      top: 14px; }
+  .tender-page.consumer .tender-summary .summary-detail {
+    font-size: 1.5rem; }
+
+.tender-page .tender-body {
+  padding: 20px  !important; }
+  .tender-page .tender-body .tab-detail {
+    padding: 20px; }
+
+.tender-page .single-tabs button {
+  min-width: 130px; }
+
+.tender-page .tab-title {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.tender-page .due-date {
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin-left: 10px; }
+
+.tender-page .history {
+  min-height: 92vh;
+  visibility: visible;
+  padding: 25px !important;
+  padding-top: 25px !important; }
+  .tender-page .history .activities {
+    position: relative;
+    overflow: hidden; }
+    .tender-page .history .activities:before {
+      content: "";
+      height: 100%;
+      width: 3px;
+      display: inline-block;
+      background-color: #c6ab6e;
+      position: absolute;
+      left: 26px; }
+    .tender-page .history .activities .tab-card.activity-card {
+      min-height: 135px;
+      display: block;
+      margin: 40px;
+      margin-left: 60px;
+      padding: 10px;
+      border-bottom: 3px solid #c6ab6e;
+      position: relative;
+      overflow: visible;
+      transition: all 0.5s ease;
+      cursor: pointer; }
+      .tender-page .history .activities .tab-card.activity-card:hover {
+        -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .tender-page .history .activities .tab-card.activity-card.tender {
+        border-bottom: 3px solid #006500; }
+      .tender-page .history .activities .tab-card.activity-card:before {
+        content: "";
+        height: 15px;
+        width: 15px;
+        background-color: #c6ab6e;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        left: -40px;
+        top: 0%;
+        bottom: 0;
+        margin: auto; }
+      .tender-page .history .activities .tab-card.activity-card .card-header {
+        padding-bottom: 20px; }
+        .tender-page .history .activities .tab-card.activity-card .card-header .activity-type {
+          display: inline-block; }
+        .tender-page .history .activities .tab-card.activity-card .card-header .activity-timestamp {
+          display: inline-block;
+          float: right; }
+      .tender-page .history .activities .tab-card.activity-card .card-body {
+        padding-bottom: 20px; }
+        .tender-page .history .activities .tab-card.activity-card .card-body .consumer-name {
+          font-size: 22px;
+          color: grey; }
+      .tender-page .history .activities .tab-card.activity-card .card-footer {
+        position: absolute;
+        bottom: 20px;
+        width: calc(100% - 20px); }
+        .tender-page .history .activities .tab-card.activity-card .card-footer .star-rating {
+          display: inline-block; }
+        .tender-page .history .activities .tab-card.activity-card .card-footer .bid-amount {
+          display: inline-block;
+          float: right;
+          font-size: 20px;
+          color: #f5f5f5; }
+
+.tender-page .active-filters-form-control {
+  min-width: 120px;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid gainsboro; }
+
+.tender-page .tender-summary .tender-details {
+  position: relative;
+  width: 20%;
+  text-align: left; }
+  .tender-page .tender-summary .tender-details ul li {
+    padding-right: 90px;
+    text-align: center; }
+    .tender-page .tender-summary .tender-details ul li .summary-title {
+      color: #c6ab6e; }
+    .tender-page .tender-summary .tender-details ul li:nth-child(1) {
+      padding-left: 10px; }
+    .tender-page .tender-summary .tender-details ul li:nth-child(2) {
+      position: relative; }
+      .tender-page .tender-summary .tender-details ul li:nth-child(2):before {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        left: -45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+      .tender-page .tender-summary .tender-details ul li:nth-child(2):after {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+  .tender-page .tender-summary .tender-details:last-child::after {
+    display: none; }
+  .tender-page .tender-summary .tender-details:after {
+    content: "";
+    height: 28px;
+    width: 2px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0px;
+    top: 14px; }
+
+.tender-page .tender-summary .summary-detail {
+  font-size: 1.5rem; }
+
+.tender-page .tender-tab {
+  border: 1px solid gainsboro; }
+
+.tender-page .bid-tab {
+  border-bottom: 2px solid #006500;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.tender-page .card-table {
+  padding: 20px;
+  margin: 40px 20px 6px 1px; }
+
+.table-header {
+  margin: 20px 0px 0px 0px !important; }
+
+.drawer-body {
+  padding: 20px;
+  max-width: 400px; }
+  .drawer-body .form-body {
+    margin-top: 10px; }
+  .drawer-body .upload-container {
+    position: relative;
+    width: 100%; }
+    .drawer-body .upload-container .upload-btn {
+      position: absolute;
+      right: 0;
+      bottom: 5px;
+      border-radius: 3px 3px 0px 0px;
+      color: #fff; }
+  .drawer-body .cta-actions {
+    text-align: right;
+    margin-top: 40px; }
+    .drawer-body .cta-actions button {
+      margin-left: 20px; }
+
+.mb-3 {
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  position: relative; }
+  .mb-3:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.vendor .mb-3:after {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+  background: #006500;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 );
+  /* IE6-9 */ }
+
+.consumer .mb-3:after {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+  background: #c6ab6e;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #c6ab6e 1%, #006500 66%, #006500 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #c6ab6e 1%, #006500 66%, #006500 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #c6ab6e 1%, #006500 66%, #006500 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6ab6e', endColorstr='#006500',GradientType=1 );
+  /* IE6-9 */ }
+
+.internal .mb-3:after {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+  background: #3B60A0;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A3BEEB', endColorstr='#3B60A0',GradientType=1 );
+  /* IE6-9 */ }
+
+.contains-icon {
+  font-size: 12px; }
+  .contains-icon i {
+    display: inline-block;
+    vertical-align: middle; }
+  .contains-icon .with-icon {
+    display: inline-block;
+    vertical-align: middle; }
+
+.short-id {
+  width: 86px;
+  overflow: hidden;
+  display: inline-block; }
+
+div[role="dialog"].auth-modal > div {
+  background-color: rgba(216, 216, 216, 0.5); }
+
+div[role="dialog"].auth-modal input[type="text"] {
+  font-size: 12px; }
+
+div[role="dialog"].auth-modal #step-two .selected-empty {
+  display: inline-block; }
+  div[role="dialog"].auth-modal #step-two .selected-empty:before {
+    border-bottom: 2px solid #c6ab6e !important; }
+  div[role="dialog"].auth-modal #step-two .selected-empty:after {
+    border-bottom: 2px solid #c6ab6e !important; }
+  div[role="dialog"].auth-modal #step-two .selected-empty * {
+    font-size: 12px;
+    margin-left: 10px; }
+
+div[role="dialog"].auth-modal #step-two .left-align {
+  display: inline-block; }
+
+div[role="dialog"].auth-modal .terms-container {
+  position: relative; }
+  div[role="dialog"].auth-modal .terms-container .terms-agree {
+    position: absolute;
+    right: 40px;
+    bottom: -8px; }
+  div[role="dialog"].auth-modal .terms-container .selected-empty * {
+    font-size: 12px;
+    padding-top: 0;
+    margin-left: 10px; }
+
+div[role="dialog"].auth-modal .auth-body {
+  position: relative; }
+  div[role="dialog"].auth-modal .auth-body:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #006500;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006500 1%, #c6ab6e 66%, #c6ab6e 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 );
+    /* IE6-9 */ }
+  div[role="dialog"].auth-modal .auth-body .dialog-title {
+    width: 78%; }
+  div[role="dialog"].auth-modal .auth-body .secondary {
+    margin-top: 0; }
+    div[role="dialog"].auth-modal .auth-body .secondary > div {
+      margin-top: 12px; }
+      div[role="dialog"].auth-modal .auth-body .secondary > div:before {
+        border-bottom: 2px solid #c6ab6e; }
+
+div[role="dialog"].auth-modal .register-dialog {
+  font-size: 14px; }
+  div[role="dialog"].auth-modal .register-dialog .form-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333; }
+  div[role="dialog"].auth-modal .register-dialog .form-step-indecator {
+    text-align: center;
+    margin-bottom: 20px; }
+    div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps {
+      position: relative;
+      display: inline-block; }
+      div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #c6ab6e;
+        position: absolute;
+        left: 0;
+        top: 25px; }
+      div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps .step {
+        display: inline-block;
+        background-color: #c6ab6e;
+        margin-right: 40px;
+        border-radius: 100%;
+        height: 33px;
+        width: 33px;
+        text-align: center;
+        color: #fff;
+        padding: 0;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38); }
+        div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps .step.active {
+          background-color: #006500; }
+        div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps .step:last-child {
+          margin-right: 0; }
+        div[role="dialog"].auth-modal .register-dialog .form-step-indecator .steps .step .number {
+          font-size: 12px;
+          position: absolute;
+          top: 4px;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          margin: auto; }
+  div[role="dialog"].auth-modal .register-dialog .dialog-title {
+    position: relative;
+    font-size: 24px; }
+    div[role="dialog"].auth-modal .register-dialog .dialog-title .register-icon {
+      background-color: #c6ab6e;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      display: inline-block;
+      position: absolute;
+      right: 9px;
+      top: 25px;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+      -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.38); }
+      div[role="dialog"].auth-modal .register-dialog .dialog-title .register-icon svg {
+        color: #fff;
+        font-size: 19px;
+        position: relative;
+        left: 5px;
+        top: 4px; }
+  div[role="dialog"].auth-modal .register-dialog .form-body label {
+    font-size: 12px;
+    color: #333;
+    width: 400px; }
+
+div[role="dialog"].auth-modal .side-tabs {
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+  div[role="dialog"].auth-modal .side-tabs > div > div > div {
+    display: block; }
+  div[role="dialog"].auth-modal .side-tabs [role="tablist"] > span {
+    display: none; }
+  div[role="dialog"].auth-modal .side-tabs::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: #DEDEDE;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  div[role="dialog"].auth-modal .side-tabs .tabs {
+    display: block;
+    overflow: visible;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    justify-content: right; }
+    div[role="dialog"].auth-modal .side-tabs .tabs svg {
+      display: block;
+      margin-right: 0;
+      color: #DEDEDE;
+      font-size: 30px;
+      margin: auto; }
+    div[role="dialog"].auth-modal .side-tabs .tabs span {
+      display: block;
+      margin-left: 0;
+      padding: 0; }
+      div[role="dialog"].auth-modal .side-tabs .tabs span span {
+        color: #DEDEDE; }
+    div[role="dialog"].auth-modal .side-tabs .tabs[aria-selected="true"] {
+      position: relative; }
+      div[role="dialog"].auth-modal .side-tabs .tabs[aria-selected="true"] svg {
+        color: #c6ab6e; }
+      div[role="dialog"].auth-modal .side-tabs .tabs[aria-selected="true"] span span {
+        color: #c6ab6e; }
+      div[role="dialog"].auth-modal .side-tabs .tabs[aria-selected="true"]::after {
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #c6ab6e;
+        width: 5px; }
+    div[role="dialog"].auth-modal .side-tabs .tabs.active {
+      position: relative; }
+      div[role="dialog"].auth-modal .side-tabs .tabs.active .tab-icon {
+        color: #c6ab6e; }
+      div[role="dialog"].auth-modal .side-tabs .tabs.active .tab-text span {
+        color: #c6ab6e; }
+      div[role="dialog"].auth-modal .side-tabs .tabs.active::after {
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #c6ab6e;
+        width: 5px; }
+
+div[role="dialog"].auth-modal .dialog-actions {
+  padding-right: 15px; }
+
+.loader {
+  height: auto;
+  width: 400px;
+  margin: auto; }
+  .loader .loader-gif {
+    height: 250px;
+    width: 250px;
+    background-image: url("./img/loader.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    margin: auto; }
+  .loader .loader-label {
+    display: block;
+    color: #006500;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px; }
+    .loader .loader-label .dot {
+      display: inline-block;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      margin-right: 3px;
+      background: #006500;
+      animation: load 1.3s linear infinite; }
+      .loader .loader-label .dot:nth-child(2) {
+        animation-delay: -1.1s; }
+      .loader .loader-label .dot:nth-child(3) {
+        animation-delay: -0.9s; }
+
+@keyframes load {
+  0%, 60%, 100% {
+    opacity: 0; }
+  30% {
+    opacity: 1; } }
+
+.tabCard ul li {
+  padding: 0px 10px; }
+
+.card-list .row-item.internal {
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  position: relative; }
+  .card-list .row-item.internal:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    content: "";
+    height: 3px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #3B60A0;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A3BEEB', endColorstr='#3B60A0',GradientType=1 );
+    /* IE6-9 */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+button.solid span {
+  color: #fff; }
+
+.btn-secondary[class*='MuiButton-outlined-'] {
+  background-color: transparent !important;
+  border-color: #c6ab6e; }
+  .btn-secondary[class*='MuiButton-outlined-'] span {
+    color: #c6ab6e !important; }
+
+.internal.outlined {
+  background-color: transparent !important;
+  border: 1px solid #3B60A0; }
+  .internal.outlined span {
+    color: #3B60A0; }
+
+.internal.submit {
+  background-color: #3B60A0 !important; }
+  .internal.submit span {
+    color: #fff !important; }
+
+.internal.secondary {
+  background-color: transparent !important;
+  border-color: #3B60A0; }
+  .internal.secondary span {
+    color: #3B60A0; }
+  .internal.secondary.notifications .notifcation-count {
+    background-color: #3B60A0;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 36px;
+    border-radius: 0px 3px 3px 0px; }
+    .internal.secondary.notifications .notifcation-count .notification-text {
+      position: relative;
+      top: 6px;
+      color: #fff; }
+      .internal.secondary.notifications .notifcation-count .notification-text .count {
+        position: relative;
+        top: -6px;
+        color: #fff; }
+
+.internal .btn-secondary[class*='MuiButton-outlined-'] {
+  background-color: transparent !important;
+  border-color: #3B60A0; }
+  .internal .btn-secondary[class*='MuiButton-outlined-'] span {
+    color: #3B60A0 !important; }
+
+.internal .btn.notifications.secondary .notifcation-count {
+  background-color: #3B60A0; }
+
+.internal .btn.notifications.primary .notifcation-count {
+  background-color: #3B60A0; }
+
+.btn.tendor {
+  width: 100px; }
+
+.btn.notifications {
+  width: 100px; }
+  .btn.notifications.secondary .notifcation-count {
+    background-color: #c6ab6e; }
+  .btn.notifications.primary .notifcation-count {
+    background-color: #006500; }
+  .btn.notifications .notifcation-count {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 36px;
+    border-radius: 0px 3px 3px 0px; }
+    .btn.notifications .notifcation-count .notification-text {
+      position: relative;
+      top: 6px; }
+      .btn.notifications .notifcation-count .notification-text .count {
+        position: relative;
+        top: -6px; }
+  .btn.notifications .button-text {
+    position: relative;
+    left: -19px; }
+
+.info-btn {
+  padding: 0 !important;
+  min-width: 20px !important; }
+
+div[class*="MuiDialogActions-root-"] {
+  width: 97%;
+  float: right; }
+
+.success-message-container {
+  text-align: center; }
+  .success-message-container .success-message {
+    background-color: #0C9D58;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    border-radius: 100%; }
+    .success-message-container .success-message .success-text {
+      color: #fff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 35px;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px; }
+
+.form-body.success {
+  color: #fff;
+  font-size: 22px; }
+  .form-body.success p {
+    font-size: 18px;
+    color: #333; }
+  .form-body.success .blockchain-id {
+    color: #c6ab6e; }
+
+.tender-submissions-container {
+  background-color: #fff;
+  height: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  border-radius: 5px; }
+  .tender-submissions-container .submission-title {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px; }
+  .tender-submissions-container .submission-body .download-cta {
+    cursor: pointer;
+    color: #333;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    text-transform: capitalize; }
+    .tender-submissions-container .submission-body .download-cta i {
+      font-size: 22px;
+      display: inline-block;
+      vertical-align: middle; }
+  .tender-submissions-container .submission-body .panel-header {
+    border-bottom: 2px solid #c6ab6e; }
+  .tender-submissions-container .submission-body .panel-details {
+    display: block; }
+  .tender-submissions-container .submission-body .upload-container {
+    position: relative;
+    width: 100%; }
+    .tender-submissions-container .submission-body .upload-container .upload-btn {
+      position: absolute;
+      right: 0;
+      bottom: 4px; }
+
+.tender-section {
+  padding-right: 10px; }
+
+.auth-modal {
+  visibility: visible; }
+  .auth-modal .auth-body .dialog-title {
+    width: 80%; }
+
+.auth-modal div[class*='MuiDialog-paper-'] {
+  max-width: 500px; }
+
+.auth-modal .auth-body .form-body.success {
+  text-align: center; }
+
+.auth-modal .close-modal {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+.query-modal .auth-body {
+  padding-bottom: 20px; }
+
+.query-modal div[class*='MuiDialog-paper-'] {
+  max-width: 800px; }
+
+.query-modal .summary {
+  display: block; }
+  .query-modal .summary div[class*='MuiExpansionPanelSummary-content-'] {
+    display: block; }
+
+.query-modal .details {
+  display: block; }
+  .query-modal .details div[class*='MuiExpansionPanelSummary-content-'] {
+    display: block; }
+
+.query-modal .subtitle {
+  display: block;
+  width: 100%;
+  padding-top: 10px; }
+
+.query-modal p {
+  width: 95%;
+  display: block; }
+
+.tender-page.consumer .single-tabs button {
+  min-width: 110px; }
+
+.tender-page.consumer .single-tabs .tender-summary .tender-details {
+  position: relative;
+  width: 20%;
+  text-align: left; }
+  .tender-page.consumer .single-tabs .tender-summary .tender-details ul li {
+    padding-right: 90px;
+    text-align: center; }
+    .tender-page.consumer .single-tabs .tender-summary .tender-details ul li .summary-title {
+      color: #006500; }
+    .tender-page.consumer .single-tabs .tender-summary .tender-details ul li:nth-child(1) {
+      padding-left: 10px; }
+    .tender-page.consumer .single-tabs .tender-summary .tender-details ul li:nth-child(2) {
+      position: relative; }
+      .tender-page.consumer .single-tabs .tender-summary .tender-details ul li:nth-child(2):before {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #006500;
+        display: inline-block;
+        position: absolute;
+        left: -45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+      .tender-page.consumer .single-tabs .tender-summary .tender-details ul li:nth-child(2):after {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #006500;
+        display: inline-block;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+  .tender-page.consumer .single-tabs .tender-summary .tender-details:last-child::after {
+    display: none; }
+  .tender-page.consumer .single-tabs .tender-summary .tender-details:after {
+    content: "";
+    height: 28px;
+    width: 2px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0px;
+    top: 14px; }
+
+.tender-page.consumer .single-tabs .tender-summary .summary-detail {
+  font-size: 1.5rem; }
+
+.tender-page .single-tabs button {
+  min-width: 130px; }
+
+.tender-page .tab-title {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.tender-page .due-date {
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin-left: 10px; }
+
+.tender-page .history {
+  min-height: 92vh;
+  visibility: visible;
+  padding: 25px !important;
+  padding-top: 25px !important; }
+  .tender-page .history .activities {
+    position: relative;
+    overflow: hidden; }
+    .tender-page .history .activities:before {
+      content: "";
+      height: 100%;
+      width: 3px;
+      display: inline-block;
+      background-color: #c6ab6e;
+      position: absolute;
+      left: 26px; }
+    .tender-page .history .activities .tab-card.activity-card {
+      min-height: 135px;
+      display: block;
+      margin: 40px;
+      margin-left: 60px;
+      padding: 10px;
+      border-bottom: 3px solid #c6ab6e;
+      position: relative;
+      overflow: visible;
+      transition: all 0.5s ease;
+      cursor: pointer; }
+      .tender-page .history .activities .tab-card.activity-card:hover {
+        -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+      .tender-page .history .activities .tab-card.activity-card.tender {
+        border-bottom: 3px solid #006500; }
+      .tender-page .history .activities .tab-card.activity-card:before {
+        content: "";
+        height: 15px;
+        width: 15px;
+        background-color: #c6ab6e;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        left: -40px;
+        top: 0%;
+        bottom: 0;
+        margin: auto; }
+      .tender-page .history .activities .tab-card.activity-card .card-header {
+        padding-bottom: 20px; }
+        .tender-page .history .activities .tab-card.activity-card .card-header .activity-type {
+          display: inline-block; }
+        .tender-page .history .activities .tab-card.activity-card .card-header .activity-timestamp {
+          display: inline-block;
+          float: right; }
+      .tender-page .history .activities .tab-card.activity-card .card-body {
+        padding-bottom: 20px; }
+        .tender-page .history .activities .tab-card.activity-card .card-body .consumer-name {
+          font-size: 22px;
+          color: grey; }
+      .tender-page .history .activities .tab-card.activity-card .card-footer {
+        position: absolute;
+        bottom: 20px;
+        width: calc(100% - 20px); }
+        .tender-page .history .activities .tab-card.activity-card .card-footer .star-rating {
+          display: inline-block; }
+        .tender-page .history .activities .tab-card.activity-card .card-footer .bid-amount {
+          display: inline-block;
+          float: right;
+          font-size: 20px;
+          color: #f5f5f5; }
+
+.tender-page .active-filters-form-control {
+  min-width: 120px;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid gainsboro; }
+
+.tender-page .tender-summary .tender-details {
+  position: relative;
+  width: 20%;
+  text-align: left; }
+  .tender-page .tender-summary .tender-details ul li {
+    padding-right: 90px;
+    text-align: center; }
+    .tender-page .tender-summary .tender-details ul li .summary-title {
+      color: #c6ab6e; }
+    .tender-page .tender-summary .tender-details ul li:nth-child(1) {
+      padding-left: 10px; }
+    .tender-page .tender-summary .tender-details ul li:nth-child(2) {
+      position: relative; }
+      .tender-page .tender-summary .tender-details ul li:nth-child(2):before {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        left: -45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+      .tender-page .tender-summary .tender-details ul li:nth-child(2):after {
+        content: "";
+        height: 20px;
+        width: 2px;
+        background-color: #c6ab6e;
+        display: inline-block;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+  .tender-page .tender-summary .tender-details:last-child::after {
+    display: none; }
+  .tender-page .tender-summary .tender-details:after {
+    content: "";
+    height: 28px;
+    width: 2px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0px;
+    top: 14px; }
+
+.tender-page .tender-summary .summary-detail {
+  font-size: 1.5rem; }
+
+.tender-page .tender-tab {
+  border: 1px solid gainsboro; }
+
+.tender-page .bid-tab {
+  border-bottom: 2px solid #006500; }
+
+.tender-page .card-table {
+  padding: 20px;
+  margin: 40px 20px 6px 1px; }
+
+.bonds {
+  color: #4C4C4C; }
+
+.status.approved {
+  color: #006500; }
+
+.status.pending {
+  color: #4C4C4C; }
+
+.status i {
+  vertical-align: middle;
+  margin-right: 10px; }
+
+.table-header {
+  font-weight: 500; }
+
+.header .btn-right {
+  position: absolute;
+  right: 20px; }
+
+.internal-header {
+  padding: 30px 10px;
+  background-color: #3B60A0;
+  height: 177px; }
+  .internal-header h1 {
+    position: relative;
+    z-index: 2;
+    color: #3B60A0; }
+  .internal-header .background-image-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: -3px;
+    z-index: 0;
+    height: 241px; }
+    .internal-header .background-image-container img {
+      width: 100%;
+      height: 100%; }
+
+.add-tender-container {
+  padding: 20px 10px; }
+  .add-tender-container .inline-spread-list {
+    list-style: none;
+    margin-top: 20px; }
+    .add-tender-container .inline-spread-list li {
+      display: inline-block;
+      width: 33.33%; }
+  .add-tender-container .secondary {
+    width: 100%; }
+  .add-tender-container .form-container {
+    padding: 20px 20px !important; }
+  .add-tender-container .uploader {
+    padding: 20px 20px !important; }
+  .add-tender-container .pdf-uploader-container {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 20px; }
+    .add-tender-container .pdf-uploader-container .pdf-item i {
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      color: #3B60A0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      font-size: 50px; }
+  .add-tender-container .uploaded-documents {
+    margin-top: 20px; }
+    .add-tender-container .uploaded-documents ul {
+      list-style-type: none; }
+  .add-tender-container .select-container {
+    padding: 20px 20px !important; }
+    .add-tender-container .select-container ul li {
+      padding-right: 80px; }
+      .add-tender-container .select-container ul li div[class*="MuiFormControl-root-"] {
+        width: 200px; }
+  .add-tender-container .cta-actions {
+    text-align: right;
+    padding: 40px 20px !important; }
+    .add-tender-container .cta-actions Button {
+      margin-left: 20px; }
+
+.bids .status.up {
+  color: greenyellow; }
+
+.bids .status.down {
+  color: red; }
+
+.vender-info.internal .block-body {
+  font-size: 30px;
+  color: #3B60A0 !important; }
+
+.vender-info.vendor .block-body {
+  font-size: 30px;
+  color: #c6ab6e !important; }
+
+.vender-info .auth-body {
+  width: 800px; }
+
+.vender-info .dialog-title {
+  width: 80%;
+  display: block; }
+  .vender-info .dialog-title h2 {
+    font-size: 28px; }
+
+.vender-info .modal-body {
+  padding: 40px;
+  text-align: center;
+  padding-bottom: 20px; }
+  .vender-info .modal-body > :nth-child(1) {
+    position: relative; }
+    .vender-info .modal-body > :nth-child(1) .block-container {
+      position: relative; }
+      .vender-info .modal-body > :nth-child(1) .block-container:after {
+        content: '';
+        width: 60%;
+        height: 1px;
+        display: inline-block;
+        background-color: rgba(51, 51, 51, 0.4);
+        position: absolute;
+        bottom: -33px;
+        left: 0;
+        right: 0;
+        margin: auto; }
+  .vender-info .modal-body .block-container {
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    margin-bottom: 40px; }
+    .vender-info .modal-body .block-container .block-title {
+      font-size: 18px;
+      padding-bottom: 20px; }
+    .vender-info .modal-body .block-container .block-body {
+      font-size: 30px;
+      color: #006500; }
+
+.vender-info .cta-actions {
+  padding-bottom: 20px; }
+
+.vender-info .grid-body {
+  justify-content: center;
+  width: 100%; }
+  .vender-info .grid-body > div:nth-child(2) {
+    position: relative; }
+    .vender-info .grid-body > div:nth-child(2)::before {
+      content: '';
+      height: 60%;
+      width: 1px;
+      background-color: rgba(51, 51, 51, 0.4);
+      position: absolute;
+      bottom: 33px;
+      left: 0; }
+    .vender-info .grid-body > div:nth-child(2)::after {
+      content: '';
+      height: 60%;
+      width: 1px;
+      background-color: rgba(51, 51, 51, 0.4);
+      position: absolute;
+      bottom: 33px;
+      right: 0; }
+
+.vender-info div[role='document'] > div {
+  max-width: 800px !important; }
+
+.activity-desc {
+  width: 80%;
+  margin-top: 10px; }
+
+.data.name {
+  font-size: 16px; }
+
+.tender-cell.info-cell {
+  padding: 4px 16px 4px 16px;
+  padding-right: 16px !important; }
+
+.categories {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 55px;
+  text-align: left; }
+
+.overflow-scroll {
+  max-height: 500px;
+  overflow: scroll; }
+
+.internal-field label {
+  color: #333 !important; }
+
+.internal-field > div {
+  color: #3B60A0; }
+  .internal-field > div:hover:not([class*='MuiInput-disabled-']):not([class*='MuiInput-focused-']):not([class*='MuiInput-error-']):before {
+    border-color: #3B60A0; }
+  .internal-field > div:before {
+    border-color: #3B60A0; }
+  .internal-field > div:after {
+    border-color: #3B60A0; }
+
+.internal .form-container > div > div:hover:not([class*='MuiInput-disabled-']):not([class*='MuiInput-focused-']):not([class*='MuiInput-error-']):before {
+  border-color: #3B60A0; }
+
+.internal .form-container > div > div:before {
+  border-color: #3B60A0; }
+
+.internal .form-container > div > div:after {
+  border-color: #3B60A0; }
+
+.internal .form-container span[class*="MuiCheckbox-root"] {
+  color: #3B60A0; }
+
+.internal-dashboard.tab-content .tab-card-list.activities:before {
+  background-color: #3B60A0 !important; }
+
+.internal-dashboard.tab-content .tab-card-list.activities .activity-card {
+  border-bottom: 2px solid #3B60A0 !important; }
+  .internal-dashboard.tab-content .tab-card-list.activities .activity-card:before {
+    background-color: #3B60A0 !important; }
+
+.internal-dashboard.tab-content .tab-card-list.tenders .tender-row {
+  position: relative;
+  padding: 5px 0px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: block;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38); }
+  .internal-dashboard.tab-content .tab-card-list.tenders .tender-row:after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #3B60A0;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A3BEEB', endColorstr='#3B60A0',GradientType=1 );
+    /* IE6-9 */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .internal-dashboard.tab-content .tab-card-list.tenders .tender-row .tender-cell {
+    padding-right: 20px;
+    border-bottom: none;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    font-size: 12px; }
+    .internal-dashboard.tab-content .tab-card-list.tenders .tender-row .tender-cell .block-color {
+      color: #c6ab6e; }
+    .internal-dashboard.tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder {
+      position: relative; }
+      .internal-dashboard.tab-content .tab-card-list.tenders .tender-row .tender-cell.categories-holder .categories {
+        width: 100px;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: sub;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        z-index: 1; }
+    .internal-dashboard.tab-content .tab-card-list.tenders .tender-row .tender-cell.action {
+      position: absolute;
+      right: 0;
+      top: 5px; }
+
+.internal-dashboard .block-color {
+  color: #3B60A0 !important; }
+
+.internal-dashboard .tender-create-container {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #3B60A0;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.38);
+  display: inline-block;
+  position: relative;
+  top: 14px;
+  left: 18px; }
+  .internal-dashboard .tender-create-container .add {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-size: 18px; }

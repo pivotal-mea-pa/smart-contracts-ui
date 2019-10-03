@@ -1,0 +1,101 @@
+@mixin transition-all {
+    transition: all 0.5s ease;
+}
+@mixin gradient-green-gold{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #006500; /* Old browsers */
+    background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006500 1%,#c6ab6e 66%,#c6ab6e 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006500 1%,#c6ab6e 66%,#c6ab6e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin gradient-gold-green{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #c6ab6e; /* Old browsers */
+    background: -moz-linear-gradient(left, #c6ab6e 1%, #006500 66%, #006500 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #c6ab6e 1%,#006500 66%,#006500 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #c6ab6e 1%,#006500 66%,#006500 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6ab6e', endColorstr='#006500',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin gradient-green-gold{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+    background: #006500; /* Old browsers */
+    background: -moz-linear-gradient(left, #006500 1%, #c6ab6e 66%, #c6ab6e 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006500 1%,#c6ab6e 66%,#c6ab6e 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006500 1%,#c6ab6e 66%,#c6ab6e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin  gradient-vertical-green-gold {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6ab6e+0,006500+100 */
+    background: #006500; /* Old browsers */
+    background: -moz-linear-gradient(top, #006500 0%, #c6ab6e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #006500 0%,#c6ab6e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #006500 0%,#c6ab6e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006500', endColorstr='#c6ab6e',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin gradient-internal{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006500+1,c6ab6e+66,c6ab6e+99 */
+ background: #3B60A0; /* Old browsers */
+ background: -moz-linear-gradient(left, #A3BEEB 1%, #3B60A0 66%, #3B60A0 99%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(left, #A3BEEB 1%,#3B60A0 66%,#3B60A0 99%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to right, #A3BEEB 1%,#3B60A0 66%,#3B60A0 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A3BEEB', endColorstr='#3B60A0',GradientType=1 ); /* IE6-9 */
+}
+
+
+@mixin border-bottom-gradient-3 {
+    content:"";
+    height: 3px;
+    width:100%;
+    @include gradient-internal();
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+
+
+@mixin border-bottom-gradient {
+    content:"";
+    height: 3px;
+    width:100%;
+    @include gradient-gold-green();
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+
+@mixin border-bottom-gradient-2 {
+    content:"";
+    height: 3px;
+    width:100%;
+    @include gradient-green-gold();
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+@mixin box-shadow-one{
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.38);
+}
+
+@mixin box-shadow-cirle {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.38);
+    -moz-box-shadow:0 2px 4px 0 rgba(0,0,0,0.38);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.38);
+}
+
+
