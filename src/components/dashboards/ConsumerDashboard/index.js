@@ -48,7 +48,7 @@ class ConsumerDashboard extends Component {
           <Tab className="text-capitalize" label="Executive Dashboard" />
           <Tab className="text-capitalize" label="Account" />
         </Tabs>
-        {tabValue === 0 && <Tenders />}
+        {tabValue === 0 && <TendersGitex />}
         {tabValue === 1 && <ExecutiveDashboard />}
         {tabValue === 2 && <Account />}
       </div>
